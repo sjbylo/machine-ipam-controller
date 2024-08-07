@@ -117,5 +117,6 @@ go mod tidy
 
 ~~~
 export KUBECONFIG=path/to/kubeconfig
+oc apply -f hack/ippools.crd.yaml
 ./bin/mapi-static-ip-controller
 ~~~
